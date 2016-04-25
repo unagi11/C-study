@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
- 	int i, j; 
+	
+ 	int x, y; 
  	 
- 	for(i=1; i<=5; i++)
+ 	for(x=-4; x<=5; x++)
  	{ 
 
- 		for(j=1; j<=i; j++)
+ 		for(y=-5; y*y>x*x; y++)
  		{
  			printf("*"); 
  		} 
