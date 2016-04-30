@@ -4,7 +4,7 @@ int main()
 	
  	int x, y; 
  	 
- 	for(x=-4; x<=5; x++)
+ 	for(x=-4; x<=4; x++)
  	{ 
 
  		for(y=-5; y*y>x*x; y++)
